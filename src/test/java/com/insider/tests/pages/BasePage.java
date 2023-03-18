@@ -10,7 +10,7 @@ public class BasePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//a[@id='mega-menu-1']")
+    @FindBy(xpath = "//span[.='More']")
     public WebElement moreButton;
 
     @FindBy(xpath = "//a[@href='https://useinsider.com/careers/']")
