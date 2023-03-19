@@ -18,7 +18,7 @@ public class CareerPage extends BasePage{
     @FindBy(xpath = "//a[.='See all teams']")
     public WebElement seeAllTeamsBtn;
 
-    @FindBy(xpath = "//a[href='https://useinsider.com/careers/quality-assurance/']")
+    @FindBy(xpath = "//a[@href=\"https://useinsider.com/careers/quality-assurance/\"]")
     public WebElement qaBtn;
 
 }

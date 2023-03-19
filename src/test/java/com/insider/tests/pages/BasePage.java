@@ -9,7 +9,6 @@ public class BasePage {
     public BasePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
     @FindBy(xpath = "//span[.='More']")
     public WebElement moreButton;
 
